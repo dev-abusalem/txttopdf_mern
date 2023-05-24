@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.payment_due_table table, th, td {
+    border:1px double black;
+  }
+  
+  .payment_due_table table{
+    display: inline-block;
+    padding: 2px;
+}
